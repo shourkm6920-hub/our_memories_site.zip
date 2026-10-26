@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>حكايتنا ❤️</title>
+<style>
+:root{--bg:#100d12;--card:#1c151d;--pink:#ffb4c8;--red:#ff5577;--text:#fff4f7;--muted:#d8c2cb}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#3a1728 0,#100d12 52%);color:var(--text);font-family:Tahoma,Arial,sans-serif;line-height:1.9}
+main{max-width:760px;margin:auto;padding:22px 16px 50px}.hero{text-align:center;padding:54px 18px 38px}.heart{font-size:42px;animation:pulse 1.5s infinite}h1{font-size:clamp(2rem,8vw,3.3rem);line-height:1.35;margin:12px 0;color:var(--pink)}h2{color:var(--pink);font-size:1.4rem}.sub{color:var(--muted);font-size:1.05rem}.btn{border:0;background:linear-gradient(120deg,#ff5577,#bd315d);color:white;padding:13px 22px;border-radius:30px;font-size:1rem;font-weight:bold;cursor:pointer;box-shadow:0 8px 28px #ff557733}
+.card{background:#1c151dcc;border:1px solid #ffffff18;border-radius:22px;padding:22px;margin:18px 0;box-shadow:0 12px 35px #0003}.hidden{display:none}.note{white-space:pre-line;color:#fff0f5}.timeline{display:grid;gap:12px}.memory{border-right:3px solid var(--red);padding:4px 14px}.date{color:var(--pink);font-size:.9rem}.photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.photo{border:1px dashed #ffb4c866;border-radius:16px;min-height:145px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);padding:12px;background:#ffffff06}.photo img{width:100%;height:100%;max-height:230px;object-fit:cover;border-radius:12px}.footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:30px}
+@keyframes pulse{50%{transform:scale(1.12)}}@media(max-width:430px){.photos{grid-template-columns:1fr}.photo{min-height:110px}}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+<div class="heart">❤️</div>
+<p class="sub">إلى أجمل شخص في حكايتي</p>
+<h1>كل سنة وإنت حبيبي 🎂</h1>
+<p class="sub">عملتلك المفاجأة دي عشان أقولك إنك غالي عندي، حتى لو المسافات بعيدة.</p>
+<button class="btn" onclick="document.getElementById('surprise').classList.toggle('hidden');this.textContent='بحبك ❤️'">افتح مفاجأتك 💌</button>
+<div id="surprise" class="card hidden">
+<h2>رسالة ليك</h2>
+<p class="note">كل سنة وإنت طيب يا حبيبي ❤️
+يارب سنتك الجديدة تكون مليانة فرحة وراحة ونجاح، وتحقق فيها كل اللي بتتمناه.
+المسافة ممكن تبعدنا عن بعض شوية، بس الذكريات الحلوة بتفضل قريبة من القلب.
+مبسوطة إنك جزء من حكايتي، ويا رب نفضل نعمل ذكريات أحلى وأحلى سوا.
+عيد ميلاد سعيد يا أغلى الناس عندي 🎂💗</p>
+</div>
+</section>
+<section class="card">
+<h2>حكايتنا سوا ✨</h2>
+<p>كل ذكرى بينا ليها مكانها، وكل لحظة حلوة بتفكرني قد إيه وجودك فارق.</p>
+<div class="timeline">
+<div class="memory"><div class="date">أول حكايتنا</div>من هنا بدأت حكاية مميزة بالنسبة ليا ❤️</div>
+<div class="memory"><div class="date">أجمل ذكرى</div>كل مرة ضحكنا فيها سوا، وكل كلام خلّى يومنا أحلى.</div>
+<div class="memory"><div class="date">اللي جاي</div>لسه قدامنا ذكريات كتير حلوة مستنيانا بإذن الله 🌙</div>
+</div>
+</section>
+<section class="card">
+<h2>صور من ذكرياتنا 📸</h2>
+<p class="sub">بدّلي المربعات دي بصوركم قبل ما تنشري الموقع.</p>
+<div class="photos">
+<div class="photo">مكان صورتكم الأولى<br>📷</div>
+<div class="photo">ذكرى بتحبوها<br>💗</div>
+<div class="photo">صورة ضحكتكم سوا<br>✨</div>
+<div class="photo">صورة مميزة ليكم<br>❤️</div>
+</div>
+</section>
+<section class="card" style="text-align:center">
+<h2>آخر الكلام 💖</h2>
+<p>عيد ميلاد سعيد، وربنا يكتبلك أيام حلوة على قد قلبك.</p>
+<div class="heart">🎁</div>
+</section>
+<div class="footer">صُنعت بكل الحب ❤️</div>
+</main>
+</body>
+</html>
